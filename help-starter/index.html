@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Привет мир!</title>
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css">
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="col-md-2 logo">
+				<a href="#!"><img src="images/logo.png" alt="logo"></a>
+			</div>
+			<div class="col-md-10">
+				<nav class=" un-text">
+					<ul class="clearfix">
+						<li><a href="#!">Проекти</a></li>
+						<li><a href="#!">Створити проект</a></li>
+						<li><a href="#!">Безкоштовне навчання </a></li>
+						<li><a href="#!"> <img src="images/shortch.jpg" alt="">Назва проекта</a></li>
+					</ul>
+				</nav>
+				<nav class="hdr-nav-rh">
+					<ul>
+						<li><a href="#!">Вхід</a></li>
+						<li><a href="#!">Реєстрація</a></li>
+					</ul>
+					
+
+				</nav>
+			</div>
+		</div>
+	</header>
+	<div class="sct-body">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="sldr-lf">
+						<div class="avatar-2">
+							<div class="avatar">
+								<img src="images/ava.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="bt-ba">
+						<a href="#!">Ваш баланс: 12 000 р<span>
+
+						</span></a>
+					</div>
+					<nav class="nv-menu">
+						<ul>
+							<li><a href="#!"><span></span>История участия</a></li>
+							<li><a href="#!"><span class="clock-1"></span>оповещания</a></li>
+							<li><a href="#!"><span class="clock-2"></span>мои сообщения</a></li>
+							<li><a href="#!"><span class="clock-3"></span>Настройки</a></li>
+
+
+						</ul>
+					</nav>
+					<nav class="black-menu">
+						<ul>
+							<li><a href="#!">моя страница</a></li>
+							<li><a href="#!">Проекты<i class="fa fa-angle-down" aria-hidden="true"></i></a><span>4</span></li>
+
+							<li><a href="#!">Избранное<i class="fa fa-angle-right" aria-hidden="true"></i></a><span>0</span></li>
+						</ul>
+					</nav>
+					<a class="exit" href="#!"><i class="fa fa-sign-out" aria-hidden="true"></i>выход</a>
+				</div>
+				<div class="col-md-9">
+					<div class="main-info-wrap ">
+						<div class="main-info-head clearfix">
+							<div class="user-info pull-left">
+								<h2>Иван Иванов</h2>
+								<p>Автор присоединился <span>31 июля 2016</span></p>
+							</div>
+							<a href="#" class="button-red pull-right">Створити проект</a>
+						</div>
+					</div>
+					<div class="tabs-wrap">
+						<div class="tab-links">
+							<a class="active" href="#">о себе</a>
+							<a href="#">Настройки безопасности</a>
+							<a href="#">оповещания </a>
+						</div>
+						<form>
+							<div class="section-1">
+								<div class="row">
+
+									<div class="col-md-3 col-md-push-9">
+										<div class="avatar-2">
+											<div class="avatar">
+												<img src="images/ava.jpg" alt="">
+											</div>
+
+										</div>
+										<div class="avatar-send">
+											<label for="ava-s" >Загрузить</label>
+											<input type="file" id="ava-s">
+										</div>
+									</div>
+									<div class="col-md-9 col-md-pull-3">
+										<div class="e-m row">
+											<div class="col-md-3">
+												<label for="name" class="control-label">Имя:</label>
+
+											</div>
+											<div class="col-md-9">
+												<input type="email" class="form-control" id="name" placeholder="Иван">
+												<p>Ваше имя отображается на вашей странице</p>
+											</div>
+										</div>
+										<div class="e-m row">
+											<div class="col-md-3">
+												<label for="text-2" class="control-label">Фамілія:</label>
+
+											</div>
+											<div class="col-md-9">
+												<input type="text" class="form-control" id="text-2" placeholder="Іванов">
+												<p>Ваше имя отображается на вашей странице</p>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="section-2">
+								<div class="row">
+									<div class="col-md-9">
+										<div class="row">
+											<div class="col-md-3">
+												<label for="tel-1">Номер телефона:</label>
+											</div>
+											<div class="col-md-9 dv-tel">
+												<input class="form-control" type="tel" id="tel-1"  name="tel" pattern="\d [0-9]" placeholder="(###) ###-##-##"/>
+												<button class="btn activ-btn-red" type="submit"> Отправить смс</button>
+												<button class="btn">відмінити</button>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<p>Чтобы подтвердить свой телефон, введите свой номер для получения смс с кодом.</p>
+									</div>
+								</div>
+							</div>
+							<div class="section-3">
+								<div class="row">
+									<div class="col-md-9">
+										<div class="row">
+											<div class="col-md-3"><label for="city">Город:</label></div>
+											<div class="col-md-9">
+												<select class="form-control" id="city">
+													<option>Январь</option>
+													<option>Февраль</option>
+													<option>Март</option>
+													<option>Апрель</option>
+													<option>Май</option>
+													<option>Июнь</option>
+													<option>Июль</option>
+													<option>Август</option>
+													<option>Сентябрь</option>
+													<option>Октябрь</option>
+													<option>Ноябрь</option>
+													<option>Декабрь</option>
+												</select>
+											</div>
+										</div>
+
+									</div>
+									<div class="col-md-3">
+
+									</div>
+
+								</div>
+							</div>
+							<div class="section-3">
+								<div class="row">
+									<div class="col-md-9">
+										<div class="row">
+											<div class="col-md-3"><label for="city2">Город:</label></div>
+											<div class="col-md-9">
+												<select class="form-control" id="city2">
+													<option>Январь</option>
+													<option>Февраль</option>
+													<option>Март</option>
+													<option>Апрель</option>
+													<option>Май</option>
+													<option>Июнь</option>
+													<option>Июль</option>
+													<option>Август</option>
+													<option>Сентябрь</option>
+													<option>Октябрь</option>
+													<option>Ноябрь</option>
+													<option>Декабрь</option>
+												</select>
+											</div>
+										</div>
+
+									</div>
+									<div class="col-md-3">
+
+									</div>
+
+								</div>
+							</div>
+							<div class="section-4">
+								<div class="row">
+									<div class="col-md-9">
+										<div class="row">
+											<div class="col-md-3">
+												<label for="date">День рождения:</label>
+											</div>
+											<div class="col-md-9 ">
+												<select class="form-control form-control-2" id="date">
+													<option>1</option>
+													<option>2</option>
+													<option>3</option>
+													<option>4</option>
+													<option>5</option>
+													<option>6</option>
+													<option>7</option>
+													<option>8</option>
+													<option>9</option>
+													<option>10</option>
+													<option>11</option>
+													<option>12</option>
+													<option>13</option>
+													<option>14</option>
+													<option>15</option>
+													<option>16</option>
+													<option>17</option>
+													<option>18</option>
+													<option>19</option>
+													<option>20</option>
+													<option>21</option>
+													<option>22</option>
+													<option>23</option>
+													<option>24</option>
+													<option>25</option>
+													<option>26</option>
+													<option>27</option>
+													<option>28</option>
+													<option>29</option>
+													<option>30</option>
+													<option>31</option>
+
+												</select>
+												<select class="form-control form-control-2 mar" >
+													<option>Январь</option>
+													<option>Февраль</option>
+													<option>Март</option>
+													<option>Апрель</option>
+													<option>Май</option>
+													<option>Июнь</option>
+													<option>Июль</option>
+													<option>Август</option>
+													<option>Сентябрь</option>
+													<option>Октябрь</option>
+													<option>Ноябрь</option>
+													<option>Декабрь</option>
+												</select>
+												<select class="form-control form-control-2" >
+													<option>1990</option>
+													<option>1991</option>
+													<option>1992</option>
+													<option>1993</option>
+													<option>1994</option>
+													<option>1995</option>
+													<option>1996</option>
+													<option>1997</option>
+													<option>1990</option>
+													<option>1990</option>
+													<option>1990</option>
+
+												</select>
+											</div>
+										</div>
+
+									</div>
+									<div class="col-md-3">
+
+									</div>
+								</div>
+							</div>
+							<div class="section-5">
+								<div class="row">
+									<div class="col-md-9">
+										<div class="row">
+											<div class="col-md-3">
+												<label for="texteria">Биография:</label>
+											</div>
+											<div class="col-md-9">
+												<textarea class="form-control" id="texteria"></textarea>
+												<p>Расскажите кратко о себе</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-3"></div>
+								</div>
+							</div>
+
+							<div class="section-6">
+								<div class="row">
+									<div class="col-md-9">
+										<div class="row">
+											<div class="col-md-3">
+												<label class="">Персональный адрес страницы:</label>
+											</div>
+											<div class="col-md-9">
+												<input type="text" class="form-control" placeholder="https://boomstarter.ru/profile">
+											</div>
+										</div>
+									</div>
+									<div class="col-md-3"></div>
+								</div>
+							</div>
+							<div class="section-3">
+								<div class="row">
+									<div class="col-md-9">
+										<div class="row">
+											<div class="col-md-3"><label for="city">Город:</label></div>
+											<div class="col-md-9">
+												<select class="form-control" >
+													<option>Январь</option>
+													<option>Февраль</option>
+													<option>Март</option>
+													<option>Апрель</option>
+													<option>Май</option>
+													<option>Июнь</option>
+													<option>Июль</option>
+													<option>Август</option>
+													<option>Сентябрь</option>
+													<option>Октябрь</option>
+													<option>Ноябрь</option>
+													<option>Декабрь</option>
+												</select>
+											</div>
+										</div>
+
+									</div>
+									<div class="col-md-3">
+										<button class="btn activ-btn-red" type="submit"> Отправить смс</button>
+									</div>
+
+								</div>
+							</div>
+							<div class="section-9">
+								<button class="btn btn-3 activ-btn-red" type="submit"> Отправить смс</button>
+							</div>
+
+
+
+						</form>
+					</div>
+				</div>	
+
+			</div>
+
+		</div>
+	</div>
+	<footer class="ft-1">
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-3">
+					<h2>Мы в Facebook</h2>
+					<div class="fb-66">
+						<a href="#!"><img src="images/fb-66.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+				<div class="col-md-5">
+					<h2>Следуй вместе с нами</h2>
+					<div class="row">
+						<div class="col-md-6">			
+							<div class="social-fb">
+								<div class="ft-red">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</div>
+								<a href="#!">Вступай в фейсбук</a>
+							</div>
+							<div class="social-fb">
+								<div class="ft-red">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</div>
+								<a href="#!">Вступай в фейсбук</a>
+							</div>
+							<div class="social-fb">
+								<div class="ft-red">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</div>
+								<a href="#!">Вступай в фейсбук</a>
+							</div>
+							<div class="social-fb">
+								<div class="ft-red">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</div>
+								<a href="#!">Вступай в фейсбук</a>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="social-fb">
+								<div class="ft-red">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</div>
+								<a href="#!">Вступай в фейсбук</a>
+							</div>
+							<div class="social-fb">
+								<div class="ft-red">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</div>
+								<a href="#!">Вступай в фейсбук</a>
+							</div>
+							<div class="social-fb">
+								<div class="ft-red">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</div>
+								<a href="#!">Вступай в фейсбук</a>
+							</div>
+							<div class="social-fb">
+								<div class="ft-red">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</div>
+								<a href="#!">Вступай в фейсбук</a>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+				<div class="col-md-3">
+					<div>
+						<a href="#!"><img src="images/logo.png" alt="logo"></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="ft-2">
+			<div class="container">
+				<nav>
+					<ul class="clearfix">
+						<li><a href="#!">Помощь</a></li>
+						<li><a href="#!">Помощь</a></li>
+						<li><a href="#!">Помощь</a></li>
+						<li><a href="#!">Помощь</a></li>
+						<li><a href="#!">Помощь</a></li>
+						<li><a href="#!">Помощь</a></li>
+						<li><a href="#!">Помощь</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: MyriadPro-Regular;
+    height: 100%;
+    background-color: #0ebfdd;
+}
+
+html {
+    height: 100%;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.header {
+    background-color: white;
+    padding: 3px 0;
+}
+
+.wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo a {
+    display: inline-block;
+    border: 2px solid #0ebfdd;
+    border-radius: 50%;
+    background-image: url("../img/logo.png");
+    width: 74px;
+    height: 74px;
+}
+
+.logo a:hover {
+    border-color: rgba(68, 179, 217, 0.6);
+    box-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0 8px 18px rgba(0, 0, 0, 0.3);
+}
+
+.center_block_text {
+    margin: 0 auto;
+    padding: 60px 0 40px 0;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+.center_block_text p {
+    text-transform: capitalize;
+}
+
+.center_block_text span {
+    text-transform: capitalize;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 40%;
+    padding-bottom: 40px;
+}
+
+.slick-prev:before {
+    content: url(../img/art.png);
+    display: inline-block;
+}
+
+.slick-prev:focus, .slick-next:focus {
+    opacity: 0.75;
+}
+
+.slick-prev, .slick-next {
+    width: 0;
+    height: 0;
+    top: 25%;
+    opacity: 0.5;
+}
+
+.slick-prev {
+    left: -125px;
+}
+
+.slick-next:before {
+    content: url(../img/rt_art_aktiv.png);
+    display: inline-block;
+
+}
+
+.slick-slide img {
+    max-width: 100%;
+}
+
+.bottom_footer form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.bottom_footer {
+    background-color: #45494d;
+    padding: 20px 0;
+}
+
+.user_info {
+    padding-bottom: 20px;
+}
+
+.user_info input[type="text"], .user_info button[type="submit"] {
+    width: 48%;
+    border: none;
+    height: 30px;
+    padding: 5px;
+    border-radius: 15px;
+    outline: 0;
+}
+
+.user_info input[type="text"] {
+    padding-left: 15px;
+}
+
+.user_info button[type="submit"] {
+    background-color: #0ebfdd;
+    text-transform: uppercase;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.user_info button[type="submit"]:hover {
+    background-color: #70a9b9;
+    color: #306474;
+    cursor: pointer;
+}
+
+.bottom_line {
+    border-bottom: 1px solid #5a5e62;
+    margin-bottom: 20px;
+}
+
+.bottom_footer {
+    text-align: center;
+}
+
+.bottom_footer a {
+    text-align: center;
+    color: #73767a;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.bottom_footer a:hover {
+    color: #fff;
+}
+
+.flex_box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.center_flex_box {
+    flex: 1 0 auto;
+}
+
+.footer_flex_box {
+    flex: 0 0 auto;
+}
+

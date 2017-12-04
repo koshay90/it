@@ -1,0 +1,55 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+    .wrap {
+        width: 750px;
+    }
+
+    .center_block_text {
+        font-size: 45px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    .wrap {
+        width: 650px;
+    }
+
+    .center_block_text {
+        font-size: 35px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .wrap {
+        width: 450px;
+
+    }
+
+    .user_info input[type="text"], .user_info button[type="submit"] {
+        width: 100%;
+    }
+
+    .center_block_text {
+        font-size: 25px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    .user_info input[type="text"], .user_info button[type="submit"] {
+        width: 100%;
+    }
+
+    .wrap {
+        width: 240px;
+    }
+
+    .center_block_text {
+        font-size: 15px;
+    }
+}
+

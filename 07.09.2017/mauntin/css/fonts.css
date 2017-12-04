@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Conv_MuseoSansCyrl_2';
+    src: url('../fonts/MuseoSansCyrl/MuseoSansCyrl_2.eot');
+    src: local('☺'), url('../fonts/MuseoSansCyrl_2/MuseoSansCyrl_2.woff') format('woff'), url('../fonts/MuseoSansCyrl_2/MuseoSansCyrl_2.ttf') format('truetype'), url('../fonts/MuseoSansCyrl_2/MuseoSansCyrl_2.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('../fonts/MyriadPro-Regular/MyriadPro-Regular.eot');
+    src: local('☺'), url('../fonts/MyriadPro-Regular/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular/MyriadPro-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AvenirHeavyFont';
+    src: url('../fonts/AvenirHeavyFont/AvenirHeavyFont.eot');
+    src: local('☺'), url('../fonts/AvenirHeavyFont/AvenirHeavyFont.woff') format('woff'), url('../fonts/AvenirHeavyFont/AvenirHeavyFont.ttf') format('truetype'), url('../fonts/AvenirHeavyFont/AvenirHeavyFont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AvenirLTStdMedium';
+    src: url('../fonts/AvenirLTStdMedium/AvenirLTStdMedium.eot');
+    src: local('☺'), url('../fonts/AvenirLTStdMedium/AvenirLTStdMedium.woff') format('woff'), url('../fonts/AvenirLTStdMedium/AvenirLTStdMedium.ttf') format('truetype'), url('../fonts/AvenirLTStdMedium/AvenirLTStdMedium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AvenirHeavyOblique';
+    src: url('../fonts/AvenirHeavyOblique/AvenirHeavyOblique.eot');
+    src: local('☺'), url('../fonts/AvenirHeavyOblique/AvenirHeavyOblique.woff') format('woff'), url('../fonts/AvenirHeavyOblique/AvenirHeavyOblique.ttf') format('truetype'), url('../fonts/AvenirHeavyOblique/AvenirHeavyOblique.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Conv_MuseoSansCyrl_1';
+    src: url('../fonts/MuseoSansCyrl_1/MuseoSansCyrl_1.eot');
+    src: local('☺'), url('../fonts/MuseoSansCyrl_1/MuseoSansCyrl_1.woff') format('woff'), url('../fonts/MuseoSansCyrl_1/MuseoSansCyrl_1.ttf') format('truetype'), url('../fonts/MuseoSansCyrl_1/MuseoSansCyrl_1.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
