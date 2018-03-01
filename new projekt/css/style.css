@@ -382,10 +382,4 @@ ul .language li a {
     top: -278px;
     left: -38px;
 }
-.Circle_box_big2:after{
-    content: url(../images/line_left.png);
-    z-index: 3;
-    position: relative;
-    top: 78px;
-    left: 38px;
-}
+
