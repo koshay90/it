@@ -1,0 +1,391 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    min-height: 100%;
+    font-family: 'SegoeUILight';
+    font-size: 14px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+@font-face {
+    font-family: 'opensanslight';
+    src: url('../fonts/opensanslight/opensanslight.eot');
+    src: local('☺'), url('../fonts/opensanslight/opensanslight.woff') format('woff'), url('../fonts/opensanslight/opensanslight.ttf') format('truetype'), url('../fonts/opensanslight/opensanslight.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url('../fonts/opensans/opensans.eot');
+    src: local('☺'), url('../fonts/opensans/opensans.woff') format('woff'), url('../fonts/opensans/opensans.ttf') format('truetype'), url('../fonts/opensans/opensans.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-header {
+    padding-top: 30px;
+
+}
+
+.container-header ul li a {
+    transition: all 0.3s ease-in-out;
+    display: block;
+    color: #231f20;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 40px;
+    line-height: 1;
+    margin: 15px 0;
+}
+
+.container-header ul li a:hover {
+    color: #00aeef;
+    transition: all 0.3s ease-in-out;
+}
+
+.batton_joe li {
+    display: inline-block;
+    border: 1px solid #00B7F4;
+    border-radius: 12px;
+    color: #00B7F4;
+    margin-right: 15px;
+}
+
+.batton_joe li a {
+    float: right;
+    color: #00B7F4;
+}
+
+.batton_joe li:after {
+    content: url(../images/joe.png);
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+}
+
+.language li {
+    float: left;
+}
+
+ul .language li a {
+    padding-right: 10px;
+}
+
+.language li:first-child a:after {
+    content: '|';
+    color: #000000;
+    padding-left: 10px;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+}
+
+.w-100 {
+    width: 30% !important;
+}
+
+.today {
+    font-family: opensans;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+    margin-top: 80px;
+}
+
+.carousel-item H2 {
+    font-size: 100px;
+    margin-bottom: 15px;
+}
+
+.carousel-item p {
+    font-size: 21px;
+}
+
+.box_overview {
+    width: 50%;
+    float: left;
+    padding: 15px 15px 15px 0px;
+}
+
+.box_overview a {
+    padding: 30px 0px;
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    border: 2px solid #3eb5f1;
+    text-align: center;
+    line-height: 18px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.box_overview a:hover {
+    background-color: #4bcaff;
+}
+
+.box_overview a img {
+    padding-bottom: 15px;
+}
+
+.carousel-control-prev-icon {
+
+}
+
+.carousel-control-next {
+    top: 50%;
+    right: -15%;
+
+}
+
+.carousel-control-next-icon {
+    background-image: url(../images/left.png);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../images/rht.png);
+}
+
+.carousel-control-prev {
+    top: 50%;
+    left: -15%;
+
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #b0afaf;
+    top: 50%;
+    font-size: 14px;
+}
+
+.box_overview_central {
+    width: 100%;
+    float: left;
+    padding: 15px 15px 15px 0;
+    text-align: center;
+}
+
+.box_overview_central a {
+    padding: 17px 0px;
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    border: 2px solid #3eb5f1;
+    text-align: center;
+    line-height: 18px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.box_overview_central a:hover {
+    background-color: #4bcaff;
+
+}
+
+.box_overview_central a img {
+    padding-bottom: 5px;
+
+}
+
+.two {
+    display: none;
+    font-size: 16px;
+}
+
+.box_overview_central a:hover .two {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.box_overview_central a:hover .one {
+    display: none;
+    text-align: center;
+}
+
+.box_overview a:hover .two {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.box_overview a:hover .one {
+    display: none;
+    text-align: center;
+}
+
+.box_overview a:hover .one p {
+    font-size: 16px;
+}
+
+.box_overview_central_right {
+    width: 50%;
+    float: left;
+    padding: 15px 15px 25px 0;
+    text-align: center;
+}
+
+.box_overview_central_right a {
+    padding: 59px 0;
+}
+
+.big_circle_box {
+    border: 1px solid;
+}
+
+.Circle_box {
+
+    border-radius: 125px;
+    width: 100%;
+    border: 1px solid #b5c4c1;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Circle_box a {
+    height: 125px;
+    width: 125px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 125px;
+    padding-top: 25px;
+}
+
+.Circle_box_big {
+    position: absolute;
+    margin-top: 50px;
+}
+
+.Circle_box_left {
+    position: relative;
+    left: 125%;
+    bottom: 16px;
+}
+
+.Circle_box_right {
+    position: relative;
+    bottom: 145px;
+    right: 125%;
+}
+
+.show_box {
+    display: none;
+    padding-top: 35px;
+    font-family: opensanslight;
+}
+
+.Circle_box_head {
+    margin-bottom: 45px;
+}
+
+.Circle_box:hover .hide {
+    display: none;
+    text-align: center;
+}
+
+.Circle_box:hover .show_box {
+    cursor: pointer;
+    display: inline-block;
+    height: 125px;
+    width: 125px;
+    margin: 0 auto;
+    background-color: #01A0C6;
+    color: #fff;
+    font-size: 24px;
+}
+
+.last_p {
+    padding-top: 10px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.Circle_box_right .show_box {
+    padding-top: 15px;
+}
+.Circle_box_big:before{
+    content: url(../images/line.png);
+    z-index: 3;
+    position: relative;
+    top:168px;
+    left: 61px;
+}
+.Circle_box_big:after{
+    content: url(../images/line_left.png);
+    z-index: 3;
+    position: relative;
+    top: -278px;
+    left: -38px;
+}
+.Circle_box_big2:after{
+    content: url(../images/line_left.png);
+    z-index: 3;
+    position: relative;
+    top: 78px;
+    left: 38px;
+}
